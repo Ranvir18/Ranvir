@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(4, 1fr);
+      height: 100vh;
+    }
+
+    .grid-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #000;
+    }
+
+    .red {
+      background-color: #ff0000;
+      color: #fff;
+    }
+
+    .yellow {
+      background-color: #ffff00;
+    }
+
+    .blue {
+      background-color: #0000ff;
+      color: #fff;
+    }
+
+    .white {
+      background-color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-item red">1</div>
+  <div class="grid-item yellow">2</div>
+  <div class="grid-item blue">3</div>
+  <div class="grid-item white">4</div>
+  <div class="grid-item white">5</div>
+  <div class="grid-item red">6</div>
+  <div class="grid-item yellow">7</div>
+  <div class="grid-item blue">8</div>
+  <div class="grid-item blue">9</div>
+  <div class="grid-item yellow">10</div>
+  <div class="grid-item red">11</div>
+  <div class="grid-item white">12</div>
+  <div class="grid-item red">13</div>
+  <div class="grid-item white">14</div>
+  <div class="grid-item yellow">15</div>
+  <div class="grid-item blue">16</div>
+</body>
+</html>
